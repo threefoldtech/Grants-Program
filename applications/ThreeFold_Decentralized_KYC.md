@@ -54,9 +54,12 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
+- Kristof De Spiegeleer
 - Geert Machtelinckx
 - Rob Van Mieghem
 - Dylan Verstraete
+- Maxime Verstraete
+- Lee Smet
 
 ### Contact
 
