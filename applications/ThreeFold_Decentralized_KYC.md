@@ -7,7 +7,9 @@
 
 ## Project Overview :page_facing_up:
 
-Treasureland is a NFT publishing and trading platform, where users can mint their own NFT with one click and can buy, sell or auction multiple on-chain NFT. Treasureland aims to connect producers and consumers with a decentralized approach, becoming the value hunter in the crypto-world and the best entrance to the world of Web 3.0.
+ThreeFold Tech has developed technology to empower a global scalable peer2peer Internet. This open-source peer-to-peer Internet empowers the digital workloads of tomorrow. Our vision is of a digital economy that guarantees data sovereignty, privacy and ownership for all, delivers equality regardless of borders, gender or race and is based upon an infrastructure that is truly decentralised, ecologically and economically sustainable for our beautiful planet. Doing good for the world and growing a successful software company can go hand in hand. 
+Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud storage, compute and network platform. Addressing multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise etc) and enabling sustainable cloud infrastructure that is decentralised, quantum safe, scalable,  self-healing, regenerative and ultra cost-effective. 
+ThreeFold Grid now in 3e generation, our primary use case, is live today with 90+ PB of storage and 31k+ CPU cores available across 60 countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
 
 ### Overview
 
@@ -31,6 +33,13 @@ We expect the teams to already have a solid idea about your project's expected f
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
+
+The project already has TFChain running as the blockchain component of the project. TFChain is running in Parity Substrate. 
+It is the trust component which, combined with the Zero-OS operating system, the Quantum-Safe Storage and the Planetary Network, is the foundation of the peer-to-peer internet. Anyone requiring internet capacity for deploying his workloads can make use of decentralised capacity connected to the Threefold Grid. 
+
+To our knowledge, a truly Decentralised and Autonomous Internet infrastructure platform has never been created, not in the Substrate ecosystem, but neither anywhere else. Traditionally, information technology is very people-intensive which adds to its complexity, risk and cost. Our technology approach is unique in many aspects including a fully decentralised operating system able to federate any digital network, compute and storage infrastructure, quantum safe storage, planetary network, carbon-negative sustainability, significant cost efficiency etc.
+
+The project brings true decentralisation and brings back the internet to a state that is in line with how it was started. Over the years, internet has been monopolized by big tech hyperscalers, which have abused their power to their own financial benefit.  
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
@@ -158,7 +167,7 @@ Please include here
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Web3 Foundation Website / Personal recommendation by Substrate Builder Program team members. 
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
