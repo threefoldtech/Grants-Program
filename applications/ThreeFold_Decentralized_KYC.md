@@ -4,10 +4,10 @@
 >
 > See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
+- **Project Name:** ThreeFold Decentralised KYC
+- **Team Name:** TFTech nv
+- **Payment Address:** x BTC / USD / ... 
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -53,8 +53,9 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Geert Machtelinckx
+- Rob Van Mieghem
+- Dylan Verstraete
 
 ### Contact
 
@@ -64,8 +65,8 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Antwerpse Steenweg 19, 9080 Lochristi, Belgium
+- **Registered Legal Entity:** TFTech nv
 
 ### Team's experience
 
@@ -75,9 +76,10 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/threefoldtech
+- https://github.com/threefoldfoundation
+- https://github.com/threefoldtech/tfchain
+- https://github.com/threefoldtech/tfchain-pallets
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
@@ -86,8 +88,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/despiegk/
+- https://www.linkedin.com/in/robvanmieghem/
+- https://www.linkedin.com/in/geert-machtelinckx-a72453b/
+- https://www.linkedin.com/in/dylan-verstraete-229539a4/
+- https://www.linkedin.com/in/lee-smet-4a279a136/
 
 ## Development Status :open_book:
 
