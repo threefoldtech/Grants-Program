@@ -1,15 +1,9 @@
 # W3F Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
-
 - **Project Name:** ThreeFold Decentralised KYC
 - **Team Name:** TFTech nv
 - **Payment Address:** x BTC / USD / ... 
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 3
-
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
@@ -59,9 +53,9 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Geert Machtelinckx
+- **Contact Email:** geert@threefold.tech
+- **Website:** www.threefold.io
 
 ### Legal Structure
 
