@@ -13,6 +13,8 @@ Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud 
 
 ThreeFold Grid now in 3e generation, our primary use case, is live today with 90+ PB of storage and 31k+ CPU cores available across 60 countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
 
+This **project** intends to ... 
+
 <!-- ## Project Overview :page_facing_up:
 
 ### Overview
