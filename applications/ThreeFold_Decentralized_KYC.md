@@ -153,12 +153,17 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Kristof De Spiegeleer
-- Geert Machtelinckx
-- Rob Van Mieghem
-- Dylan Verstraete
-- Maxime Verstraete
-- Lee Smet
+- Kristof De Spiegeleer : CEO
+- Geert Machtelinckx : Project Lead 
+- Rob Van Mieghem : Lead Engineer 
+- Dylan Verstraete : Full-stack and blockchain developer
+- Maxime Verstraete : Full-stack developer
+- Lee Smet : System Architect 
+
+### Project Websites
+
+- General : https://www.threefold.io 
+- Wiki : https://library.threefold.me  
 
 ### Contact
 
@@ -173,9 +178,35 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+**Kristof**
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+- Founder and CEO of ThreeFold Tech
+- Passionate social entrepreneur who believes that respect & transparency is the basis for solid business. We believe that doing good for the world & providing return for investors can co-exist. 
+- Serial tech entrepreneur with 6 Successful Exits > USD 500 million
+
+**Rob**
+
+- 21 years of expertise in Development and Management
+- Mentioned in the release notes of Bitcoin version 0.11.0: https://github.com/bitcoin/bitcoin/blob/452bb90c718da18a79bfad50ff9b7d1c8f1b4aa3/doc/rele ase-notes/release-notes-0.11.0.md#credits
+
+**Geert**
+
+- 23 years of experience in IT Project Management and Architecture
+- Currently busy on Project Management and Business Development with ThreeFold Tech
+
+**Dylan**
+
+- Main engineer on TFChain, the ThreeFold blockchain in Parity Substrate 
+- 4 years of experience in Blockchain technology. Passionate about learning about new technologies and getting hands on experience with them.
+
+**Lee**
+
+- Lead Architect of ThreeFold Tech
+- 6 years of expertise in IT Cloud Architectures and Operating Systems
+
+**Maxime**
+
+- 7 years of expertise in Operating Systems, Storage 
 
 ### Team Code Repos
 
