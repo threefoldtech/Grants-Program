@@ -36,7 +36,15 @@ We consider the ThreeFold Technology as the missing foundational layer for a dec
 
 ![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/tfgrid/grid_concepts/img/missing_layer_.jpg)
 
-This **project** intends to ... 
+#### Thin Provisioning
+
+This **project** intends to benefit from the decentralised storage capabilities developed in the ThreeFold Grid to do Thin Provisioning. 
+
+In order to get a thin provisioning efficient, we need a way to start a filesystem in a well known existing state and modify this filesystem without modifying existing original layer.
+
+Using 0-db database, we can give access to a database populated with a well known state of a filesystem. This database should be available only in read-only access in order to avoid any part to modify it. This database can be read by multiple reader in the same time.
+
+While using this layer as base image, it will be possible to expose a remote filesystem available only in read-only, by using a solution like overlayfs, we can mount a write-layer locally, which will enable read-write without touching the source filesystem.
 
 <!-- ## Project Overview :page_facing_up:
 
