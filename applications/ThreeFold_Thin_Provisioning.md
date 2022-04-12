@@ -13,6 +13,23 @@ Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud 
 
 ThreeFold Grid now in 3e generation, our primary use case, is live today with 90+ PB of storage and 31k+ CPU cores available across 60 countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
 
+#### Integration
+
+Threefold provides decentralized internet infrastructure, which can be made available by anyone and for anyone. It combines 3 major components : 
+- A federated operating system, called Zero-OS. It has a Linux kernel, so it’s compatible for running any Linux workload on it: containers, Kubernetes clusters, all types of storage, any application. All around the kernel has been rebuilt in order to make it federated/multi-user, secure and privacy enabling. 
+Features built around the kernel hold : 
+  - An authentication mechanism using a public/private key pair :  Access to this OS, both as a provider and as a user, happens through a public-private key pair, the same as is used to secure blockchain identities. So it’s really decentralised, no longer requiring user names and passwords, source of many hacks. 
+So every user (human, but it can also be an IoT device) has his own identity, represented by his own private keys, interacting directly on OS level. 
+- Persistent storage where data can be dispersed intelligently over different hardware storage devices, which could be owned by different CSPs, in a way that hacking into a hard drive becomes useless, as data is incomplete (and encrypted). It’s why we call it quantum-safe: with incomplete data, even a quantumcomputer cannot reveal the original information.
+- we got rid of hacking surface of this operating system, as it runs only in memory, there is no shell, and it completely separates the capacity providing side from the usage and data running on it. Meaning that a cloud provider has no insight whatsoever on the workload and the data running on his infrastructure. Which is essential to have privacy implemented by design. 
+- the network component which runs by design end-to-end encrypted communications, with strong authentication features to connect, this network can securely interconnect any 2 hardware devices over IPv6 and with a secure protocol.
+
+![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/technology/zos/img/zos_overview_compute_storage.jpg)
+
+We consider the ThreeFold Technology as the missing foundational layer for a decentralized internet. Basically any IT workload can run on top of the TFGrid. 
+
+![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/tfgrid/grid_concepts/img/missing_layer_.jpg)
+
 This **project** intends to ... 
 
 <!-- ## Project Overview :page_facing_up:
