@@ -8,7 +8,9 @@
 ## Project Overview :page_facing_up:
 
 ThreeFold Tech has developed technology to empower a global scalable peer2peer Internet. This open-source peer-to-peer Internet empowers the digital workloads of tomorrow. Our vision is of a digital economy that guarantees data sovereignty, privacy and ownership for all, delivers equality regardless of borders, gender or race and is based upon an infrastructure that is truly decentralised, ecologically and economically sustainable for our beautiful planet. Doing good for the world and growing a successful software company can go hand in hand. 
+
 Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud storage, compute and network platform. Addressing multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise etc) and enabling sustainable cloud infrastructure that is decentralised, quantum safe, scalable,  self-healing, regenerative and ultra cost-effective. 
+
 ThreeFold Grid now in 3e generation, our primary use case, is live today with 90+ PB of storage and 31k+ CPU cores available across 60 countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
 
 <!-- ## Project Overview :page_facing_up:
@@ -107,9 +109,16 @@ The function provided by the pallet to get off-chain data is `requestOffchainDat
 
 ### Ecosystem Fits
 
-In the area of Decentralized Autonomous Organizations, there are many mature DAOs maintained in different ways with different tools or platforms, such as **Maker**, **The DAO**, and **The LAO**. Also, there are some other tools to help governors building a DAO, such as **Aragon**. Aragon is a project providing tools to create and the governor a DAO, but only available on Ethereum. 
+Most of the current L1 blockchain frameworks run on centralized cloud infrastructure, like Amazon AWS, Microsoft Azure etc. Centralisation of hardware infrastructure for running decentralized workloads goes against the nature of the cryptospace, to have as much decentralization as possible. 
 
-**SubDAO** is quite different and evolved from other DAO related projects. The goal of **SubDAO** is to create a (1) cross-chain platform providing (2) general and customized functionalities to govern a DAO (3) connecting to DApp with the ability to (4) access off-chain external data. -->
+There are initiatives focused on decentralisation of storage (Filecoin, SIA, Storj, ...) on the one hand, and other initiatives decentralizing compute capacity (Golem, SONM, ...). Other initiatives like Dfinity/ICP aim to build a 
+
+**ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
+We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
+
+Th
+ -->
+
 ### Overview
 
 Please provide the following:
@@ -140,14 +149,23 @@ To our knowledge, a truly Decentralised and Autonomous Internet infrastructure p
 
 The project brings true decentralisation and brings back the internet to a state that is in line with how it was started. Over the years, internet has been monopolized by big tech hyperscalers, which have abused their power to their own financial benefit.  
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Most of the current L1 blockchain frameworks run on centralized cloud infrastructure, like Amazon AWS, Microsoft Azure etc. Centralisation of hardware infrastructure for running decentralized workloads goes against the nature of the cryptospace, to have as much decentralization as possible. 
+
+There are initiatives focused on decentralisation of storage (Filecoin, SIA, Storj, ...) on the one hand, and other initiatives decentralizing compute capacity (Golem, SONM, ...). Other initiatives like Dfinity/ICP aim to build a 
+
+**ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
+We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
+
+Th
+
+<!-- Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - What need(s) does your project meet?
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+  - If not, are there similar projects in related ecosystems? --> 
 
 ## Team :busts_in_silhouette:
 
