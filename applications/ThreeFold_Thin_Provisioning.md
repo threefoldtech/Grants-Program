@@ -9,6 +9,10 @@
 
 ### Overview
 
+This project intends to provide in 'Thin Provisioning', meaning the creation of a new blockchain instance that does not need to be fully synchronised, but can start from an off-chain stored version of the blockchain. Syncing then only needs to be done since this last backup, and any data that the node needs to retrieve which is older, can be retrieved directly from this back-up. 
+
+### Background
+
 ThreeFold Tech has developed technology to empower a global scalable peer-to-peer internet, empowering the digital workloads of tomorrow. Our vision is of a digital economy that guarantees data sovereignty, privacy and ownership for all, delivers equality regardless of borders, gender or race and is based upon an infrastructure that is truly decentralised, ecologically and economically sustainable for our beautiful planet. Doing good for the world and growing a successful software company can go hand in hand. 
 
 Our peer-to-peer internet technology is a blockchain-driven, and encompasses cloud storage, compute and network features, which are interacting in a fully secure way using a federated operating systrem called Zero-OS. It addresses multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise, ...) and enables a sustainable cloud infrastructure that is decentralised, quantum-safe, scalable, self-healing, regenerative and ultra cost-effective. 
