@@ -7,6 +7,8 @@
 
 ## Project Overview :page_facing_up:
 
+### Overview
+
 ThreeFold Tech has developed technology to empower a global scalable peer2peer Internet. This open-source peer-to-peer Internet empowers the digital workloads of tomorrow. Our vision is of a digital economy that guarantees data sovereignty, privacy and ownership for all, delivers equality regardless of borders, gender or race and is based upon an infrastructure that is truly decentralised, ecologically and economically sustainable for our beautiful planet. Doing good for the world and growing a successful software company can go hand in hand. 
 
 Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud storage, compute and network platform. Addressing multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise etc) and enabling sustainable cloud infrastructure that is decentralised, quantum safe, scalable,  self-healing, regenerative and ultra cost-effective. 
@@ -18,28 +20,6 @@ See the [Grid Explorer](https://explorer.threefold.io/all) for an overview of th
 We consider the ThreeFold Technology as the missing foundational layer for a decentralized internet. Basically any IT workload can run on top of the TFGrid. 
 
 ![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/tfgrid/grid_concepts/img/missing_layer_.jpg)
-
-#### Thin Provisioning
-
-This **project** intends to benefit from the decentralised storage and compute capabilities developed in the ThreeFold Grid to do Thin Provisioning of any blockchain node deployment in the Polkadot ecosystem. 
-
-In order to get a thin provisioning efficiently done, we need a way to start a filesystem in a well known existing state and modify this filesystem without modifying existing original layer.
-
-Using 0-db database, we can give access to a database populated with a well known state of a filesystem. This database should be available only in read-only access in order to avoid any part to modify it. This database can be read by multiple reader in the same time.
-
-While using this layer as base image, it will be possible to expose a remote filesystem available only in read-only, by using a solution like overlayfs, we can mount a write-layer locally, which will enable read-write without touching the source filesystem.
-
-## Project Overview :page_facing_up:
-
-### Overview
-
-#### Introduction
-
-**SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Polkadot.**  It will be the infrastructure to maintain DAO and to connect DApp with DAO in the world of Web3.0 powered by Substrate and Polkadot.
-
-The SubDAO will run as a parachain to provide specific services. The various DAO templates and SubDAO Airfone will alleviate the burden on developers to maintain DAOs and to create very DApps linked with DAOs. 
-
-The initial governors of a DAO can easily create a cross-chain DAO by only a few clicks without any tech skills at all. Developers who are willing to build DApps can give the governance to communities by using SubDAO to create the very DAO connected to DApp through SubDAO Airfone.
 
 #### Integration
 
@@ -54,6 +34,16 @@ The team is very experienced in cloud technology, ThreeFold Tech is the result o
 With this ambition, the team has made the technology to rebuild the internet in a way it was intended at conception, which is truly decentralized, stable, secure, fully privacy-enabling, sustainable and where an individual's data can't be exploited by the big tech giants. 
 
 ### Project Details
+
+#### Thin Provisioning
+
+This **project** intends to benefit from the decentralised storage and compute capabilities developed in the ThreeFold Grid to do Thin Provisioning of any blockchain node deployment in the Polkadot ecosystem. 
+
+In order to get a thin provisioning efficiently done, we need a way to start a filesystem in a well known existing state and modify this filesystem without modifying existing original layer.
+
+Using 0-db database, we can give access to a database populated with a well known state of a filesystem. This database should be available only in read-only access in order to avoid any part to modify it. This database can be read by multiple reader in the same time.
+
+While using this layer as base image, it will be possible to expose a remote filesystem available only in read-only, by using a solution like overlayfs, we can mount a write-layer locally, which will enable read-write without touching the source filesystem.
 
 #### Architecture
 
