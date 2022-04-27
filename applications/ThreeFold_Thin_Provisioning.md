@@ -137,21 +137,23 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ### Ecosystem Fit
 
-The project already has TFChain running as the blockchain component of the project. TFChain is running in Parity Substrate. 
-It is the trust component which, combined with the Zero-OS operating system, the Quantum-Safe Storage and the Planetary Network, is the foundation of the peer-to-peer internet. Anyone requiring internet capacity for deploying his workloads can make use of decentralised capacity connected to the Threefold Grid. 
+The 'Thin Provisioning' nicely fits in the idea of a multi-blockchain ecosystem, where many blockchain nodes need to be deployed. Bringing the tooling to have this up and running brings several major benefits : 
+- blockchain nodes are deployed in a substantially lower timeframe than traditionally needed;
+- blockchain nodes require substantially lower storage than with the traditional sync process, while the benefits of running a full blockchain remains (all history are available in the Zero-DB filesystem);
+- our technology makes deployment of blockchain nodes possible on a fully decentralized cloud infrastructure, making it possible to wisely choose the location and type of hardware infrastructure. 
 
-To our knowledge, a truly Decentralised and Autonomous Internet infrastructure platform has never been created, not in the Substrate ecosystem, but neither anywhere else. Traditionally, information technology is very people-intensive which adds to its complexity, risk and cost. Our technology approach is unique in many aspects including a fully decentralised operating system able to federate any digital network, compute and storage infrastructure, quantum safe storage, planetary network, carbon-negative sustainability, significant cost efficiency etc.
+Moreover, due to the fact that TF-Chain is running on Parity Substrate, the internet capacity reservation process can be integrated seamlessly with the deployment of any IT workload created by any project in the Polkadot ecosystem. 
 
-The project brings true decentralisation and brings back the internet to a state that is in line with how it was started. Over the years, internet has been monopolized by big tech hyperscalers, which have abused their power to their own financial benefit.  
 
-Most of the current L1 blockchain frameworks run on centralized cloud infrastructure, like Amazon AWS, Microsoft Azure etc. Centralisation of hardware infrastructure for running decentralized workloads goes against the nature of the cryptospace, to have as much decentralization as possible. 
+And it solves an anomaly in the decentralization movement: most of the current L1 blockchain frameworks run on centralized cloud infrastructure, like Amazon AWS, Microsoft Azure etc. Centralisation of hardware infrastructure for running decentralized workloads goes against the nature of the cryptospace, to have as much decentralization as possible. 
 
-There are initiatives focused on decentralisation of storage (Filecoin, SIA, Storj, ...) on the one hand, and other initiatives decentralizing compute capacity (Golem, SONM, ...). Other initiatives like Dfinity/ICP aim to build a 
+
 
 **ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
 We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
 
-Th
+There are initiatives focused on decentralisation of storage (Filecoin, SIA, Storj, ...) on the one hand, and other initiatives decentralizing compute capacity (Golem, SONM, ...). 
+One project in the Substrate ecosystem is working on Network, [Phala Network](https://www.phala.network/en/). Both projects are complementary and compatible: Phala is focusing on network and cloud functions. We build the 'layer 0' by connecting hardware infrastructure to a decentralized ecosystem. Moreover our focus is on storage and running any Linux workload inside VMs. Phala could use the hardware infrastructure offered in the ThreeFold Grid for their own services. 
 
 <!-- Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
