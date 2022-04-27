@@ -9,9 +9,9 @@
 
 ### Overview
 
-ThreeFold Tech has developed technology to empower a global scalable peer2peer Internet. This open-source peer-to-peer Internet empowers the digital workloads of tomorrow. Our vision is of a digital economy that guarantees data sovereignty, privacy and ownership for all, delivers equality regardless of borders, gender or race and is based upon an infrastructure that is truly decentralised, ecologically and economically sustainable for our beautiful planet. Doing good for the world and growing a successful software company can go hand in hand. 
+ThreeFold Tech has developed technology to empower a global scalable peer-to-peer internet, empowering the digital workloads of tomorrow. Our vision is of a digital economy that guarantees data sovereignty, privacy and ownership for all, delivers equality regardless of borders, gender or race and is based upon an infrastructure that is truly decentralised, ecologically and economically sustainable for our beautiful planet. Doing good for the world and growing a successful software company can go hand in hand. 
 
-Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud storage, compute and network platform. Addressing multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise etc) and enabling sustainable cloud infrastructure that is decentralised, quantum safe, scalable,  self-healing, regenerative and ultra cost-effective. 
+Our peer-to-peer internet technology is a blockchain-driven, and encompasses cloud storage, compute and network features, which are interacting in a fully secure way using a federated operating systrem called Zero-OS. It addresses multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise, ...) and enables a sustainable cloud infrastructure that is decentralised, quantum-safe, scalable, self-healing, regenerative and ultra cost-effective. 
 
 ThreeFold Grid has been released in its third generation. Our primary use case is live today with 80+ PB of storage and 31k+ CPU cores available across 60+ countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
 
