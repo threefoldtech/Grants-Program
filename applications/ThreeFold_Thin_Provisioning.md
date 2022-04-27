@@ -13,14 +13,6 @@ Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud 
 
 ThreeFold Grid now in 3e generation, our primary use case, is live today with 90+ PB of storage and 31k+ CPU cores available across 60 countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
 
-#### Integration
-
-Threefold provides decentralized internet infrastructure, which can be made available by anyone and for anyone. It combines the following major components : 
-- A federated operating system, called Zero-OS. 
-
-- A blockchain component to bring trust. 
-This blockchain component uses the Parity substrate framework, and is the layer that stores all info required to run the ThreeFold Grid, holding all farms, hardware nodes, contracts between providers and consumers, billing reports, ... 
-
 We consider the ThreeFold Technology as the missing foundational layer for a decentralized internet. Basically any IT workload can run on top of the TFGrid. 
 
 ![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/tfgrid/grid_concepts/img/missing_layer_.jpg)
@@ -35,7 +27,7 @@ Using 0-db database, we can give access to a database populated with a well know
 
 While using this layer as base image, it will be possible to expose a remote filesystem available only in read-only, by using a solution like overlayfs, we can mount a write-layer locally, which will enable read-write without touching the source filesystem.
 
-<!-- ## Project Overview :page_facing_up:
+## Project Overview :page_facing_up:
 
 ### Overview
 
@@ -88,7 +80,7 @@ The network component which runs by design end-to-end encrypted communications, 
 
 * **TF-Chain** 
 
-The trust component in our technology, storing all farming equipment (hardware) as well as agreements between farmers and capacity consumers. 
+This blockchain component uses the Parity Substrate framework, and is the layer that stores all info required to run the ThreeFold Grid, holding all farms, hardware nodes (equipment), contracts between providers and consumers, agreements between farmers and capacity consumers, billing reports, ... 
 
 Minting of TFT, as a reward for having hardware capacity connected to the ThreeFold Grid, is currently paid out on Stellar, but will be implemented on-chain on Parity Substrate soon. 
 Payment for hired capacity happens in hourly cycles in TFT on TF-Chain. 
@@ -105,7 +97,6 @@ The 'Smart Contract for IT' is a process that allows on-chain reservation of clo
 #### Deploy a workload
 
 *  **Thin Provisioning**  
-
 
 ### Substrate / Polkadot Integration
 
@@ -134,18 +125,18 @@ The function provided by the pallet to get off-chain data is `requestOffchainDat
 - `params:` HTTP wrapper URL, JSON params
 - `return:` dataId
 
-
 ### Ecosystem Fits
 
 Most of the current L1 blockchain frameworks run on centralized cloud infrastructure, like Amazon AWS, Microsoft Azure etc. Centralisation of hardware infrastructure for running decentralized workloads goes against the nature of the cryptospace, to have as much decentralization as possible. 
 
-There are initiatives focused on decentralisation of storage (Filecoin, SIA, Storj, ...) on the one hand, and other initiatives decentralizing compute capacity (Golem, SONM, ...). Other initiatives like Dfinity/ICP aim to build a 
+There are initiatives focused on decentralisation of storage (Filecoin, SIA, Storj, ...) on the one hand, and other initiatives decentralizing compute capacity (Golem, SONM, ...). Other initiatives like Dfinity/ICP aim to build a network to interconnect data centers, but do not offer security and privacy by design, nor capability to run at the edge, and require product-specific workloads to be created. 
 
 **ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
 We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
 
 Th
- -->
+
+---- 
 
 ### Overview
 
