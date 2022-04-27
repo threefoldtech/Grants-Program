@@ -247,10 +247,10 @@ Th
 
 ### Team Code Repos
 
-- https://github.com/threefoldtech
-- https://github.com/threefoldfoundation
-- https://github.com/threefoldtech/tfchain
-- https://github.com/threefoldtech/tfchain-pallets
+- https://github.com/threefoldtech (full ThreeFold Tech repo)
+- https://github.com/threefoldfoundation 
+- https://github.com/threefoldtech/tfchain (TFChain repo)
+- https://github.com/threefoldtech/tfchain-pallets (repo holding pallets used for TFChain)
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
