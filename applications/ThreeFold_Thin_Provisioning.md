@@ -68,7 +68,7 @@ TF-Chain is a customized chain running in the Parity Substrate Framework. It sto
 
 The team is very experienced in cloud technology, ThreeFold Tech is the result of 20 years of open-source technology in the cloud sector, resulting in 6 exits for a total amount of about 500 million EUR. ThreeFold Tech is now combining this experience to create the world's first truly decentralized internet infrastructure. 
 
-With this ambition, the team intends to rebuild the internet in a way it was intended at conception, which is truly decentralized. 
+With this ambition, the team has made the technology to rebuild the internet in a way it was intended at conception, which is truly decentralized, stable, secure, fully privacy-enabling, sustainable and where an individual's data can't be exploited by the big tech giants. 
 
 ### Project Details
 
@@ -78,48 +78,29 @@ With the state-of-art technology, SubDAO Labs can achieve the goal based on Subs
 
 ![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/SubDAO%20Architecture.jpg)
 
-* **SubDAO Node** is the customized chain node for the SubDAO network built by Substrate 2.0. It's the fundament of the SubDAO network that contains the basic functionalities as a normal chain node but also provides the ability to fetch external data needed for DAO governance with the OCW (Off-chain Worker) from Substrate 2.0 Framework. 
+* **Zero-OS** 
 
-* **Template Library** is the key component of the SubDAO network. It is comprised of multiple contracts. The main functionalities of **Template Library** are managing and providing various DAO Templates for different types of organizations. Everyone has the right to define new DAO Templates according to their needs, and the SubDAO network provides some default DAO Templates such as Voting Template, Fund Template, VC (Venture Capital) Template and so on. 
+* **Quantum-Safe Storage** 
 
-* **SubDAO Guard** is the original DAO of the SubDAO network. It provides basic management functionalities. Every member of the SubDAO network can get involved in the SubDAO network governance through SubDAO Guard.
+* **Planetary Network** 
 
-* **Asset Vault** is the smart contract providing the basic features of manage assets for each DAO. Working together with **DAO Template**, the **Asset Vault** manages all kinds of assets, including the assets needed by creating a new DAO, the assets deposited by the governors of a DAO, and other assets.
+* **TF-Chain** 
 
-* **SubDAO Airfone** is the SDK for developers to connect their DApps with the DAOs created by themselves or others. It will be provided as a Javascript library at the beginning, and in other languages later. Developers can use the SubDAO Airfone to interact with the SubDAO network directly or built their DApps with the connection to DAO.
+* **Smart Contract for IT** 
 
-* **Front End** provides Web UI for everyone to interact with the SubDAO network. All the users need to do is open the webpage deployed by the SubDAO Labs team or by users themselves and click the buttons following the manual. **Front End** will provide such functionalities as creating a new DAO, define a new DAO template, withdraw personal assets,  voting in DAO, and so on. Front End will be built with NodeJS.
+* **TFT** is the utility token and a representation of the internet capacity connected to the ThreeFold Grid. TFTs are 'farmed' by providers of dedicated hardware capacity, and are used as a medium of exchange for cloud capacity. 
 
-* **SubDAO Token $SDT** is the native token of the SubDAO Network, and it will play the role of governance and other utilities. **$SDT** is necessary to secure and power the SubDAO Network. The SubDAO Network may hold an IPO and reward community members for helping our auction with **$SDT** tokens during the Parachain Auction.
+#### Deploy a workload
 
-#### Scenarios
+*  **Thin Provisioning**  
 
-*  **Scenario to Create a New DAO**  
-![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/flow1.jpg)
-
-As shown above, the steps to create a new DAO are marked. The DAO governor calls the smart contract of the SubDAO Guard to choose a proper DAO template from the DAO Template Library. After the governor fills the basic information required by template such as name, description, the rules of governance, initial members, and so on and deposits the initial fund to the Asset Vault, the SubDAO Guard contract will create the very DAO according to the chosen template and filled information. All extra information, such as images, texts, and files, will be stored in a decentralized storage network like IPFS.
-
-*  **Scenario to Attend a New DAO**  
-![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/flow2.jpg)
-
-Generally speaking, there are two kinds of ways to interact with DAO contracts. The first way to get involved with a specific DAO is using the **Front End** created by the SubDAO Labs to interact with all the DAOs on the SubDAO Network. The second way is using the **SubDAO Airfone**. The SubDAO Airfone will hide all the details of calling smart contracts for users and is used by DApps since the developers of DApps can customize their scenario according to their needs.
-
-
-#### The Open SDK
-
-Our ultimate goal is to provide an essential open SDK (**the SubDAO Airfone**) from a high-level perspective together with the above components, fully powering the ecosystem of DAO across chains on Polkadot.  With the functionality of the Open SDK, anyone involved can utilize DAO and DApp.
-
-The benefits of an open SDK are beyond criticism. The Open SDK will be an extension of both the DAO's capabilities and the value of the DApps through the whole Polkadot universe.  We hope to build a framework whereby any Decentralized Autonomous Organizations can live, and any Decentralized Apps can use in the  Polkadot ecosystem.
 
 ### Substrate / Polkadot Integration
 
-The whole SubDAO Network builds on top of the Substate 2.0, and the Polkadot ecosystem is essential to what SubDAO Network is trying to achieve. The SubDAO Network will be connected to the Polkadot ecosystem as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. 
+TF-Chain has been implemented in the Parity Substrate framework, and be expanded and improved, benefiting from the Polkadot ecosystem to achieve consensus and to run the sis essential to what SubDAO Network is trying to achieve. The TF-Chain will be connected to the Polkadot ecosystem as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. 
 
-The off-chain worker is a new feature in the Substrate Framework that allows the SubDAO Network to interact with off-chain data. 
-
-The node in the SubDAO Network is built with OCW (Off-chain Worker) enabled. The figure below shows how it will work with external data (for example, the contributions on Github).
-
-![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/Integration.jpg)
+> __TO DO__ : The technology allows to suybstantially extend the Off-chain storage capabilities in the polkadot ecosystem compared to the Off-chain worker. 
+> __TO CONFIRM__ : Parachain ? 
 
 In the figure above, the SubDAO Node includes an OCW pallet that interacts with external HTTP service (Github Http Wrapper). Since the OCW pallet is a general component, most of the processing work of external data is moved out of OCW to decrease the complexity of implementation and give the ability to the DAO governors who wanna use specific data sources for their DAO. The external HTTP service (Github Http Wrapper) will fetch the data such as contributions for a user in a project or repository from Github.com and feed the OCW pallet in the SubDAO Node.
 
