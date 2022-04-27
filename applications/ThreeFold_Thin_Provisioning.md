@@ -129,7 +129,7 @@ There are initiatives focused on decentralisation of storage (Filecoin, SIA, Sto
 **ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
 We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
 
----- 
+<!-- 
 
 ### Overview
 
@@ -150,7 +150,7 @@ We expect the teams to already have a solid idea about your project's expected f
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious --> 
 
 ### Ecosystem Fit
 
@@ -260,6 +260,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://www.linkedin.com/in/lee-smet-4a279a136/
 
 ## Development Status :open_book:
+
+> TO DO: @Maxime 
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
