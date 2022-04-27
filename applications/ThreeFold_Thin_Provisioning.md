@@ -248,16 +248,21 @@ One project in the Substrate ecosystem is working on Network, [Phala Network](ht
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- Kristof: https://github.com/despiegk
+- Rob: https://github.com/robvanmieghem
+- Maxime: https://github.com/maxux
+- Geert: https://github.com/gmachtel
+- Dylan: https://github.com/DylanVerstraete 
+- Lee: https://github.com/LeeSmet
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/in/despiegk/
-- https://www.linkedin.com/in/robvanmieghem/
-- https://www.linkedin.com/in/geert-machtelinckx-a72453b/
-- https://www.linkedin.com/in/dylan-verstraete-229539a4/
-- https://www.linkedin.com/in/lee-smet-4a279a136/
+- Kristof: https://www.linkedin.com/in/despiegk/
+- Rob: https://www.linkedin.com/in/robvanmieghem/
+- Maxime: https://www.linkedin.com/in/maxime-daniel-29bb8055/ 
+- Geert: https://www.linkedin.com/in/geert-machtelinckx-a72453b/
+- Dylan: https://www.linkedin.com/in/dylan-verstraete-229539a4/
+- Lee: https://www.linkedin.com/in/lee-smet-4a279a136/
 
 ## Development Status :open_book:
 
