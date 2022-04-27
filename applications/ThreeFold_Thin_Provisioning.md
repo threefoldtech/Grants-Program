@@ -49,8 +49,6 @@ While using this layer as base image, it will be possible to expose a remote fil
 
 With the state-of-art technology, SubDAO Labs can achieve the goal based on Substrate 2.0 and the Polkadot. The SubDAO project contains SubDAO node, Template Library, SubDAO Guard, Asset Vault, SubDAO Airfone, and Front End.
 
-![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/SubDAO%20Architecture.jpg)
-
 * **Zero-OS** 
 
 Zero-OS is our own Linux-based operating system. It has a Linux kernel inside, so it’s compatible for running any Linux workload on it: containers, Kubernetes clusters, all types of storage, any application. All around the kernel has been rebuilt in order to make it federated/multi-user, secure and privacy enabling. 
@@ -65,6 +63,8 @@ We got rid of hacking surface of this operating system, as it runs only in memor
 * **Quantum-Safe Storage** 
 
 Quantum-safe storage is persistent storage where data can be dispersed intelligently over different hardware storage devices, which could be owned by different CSPs, in a way that hacking into a hard drive becomes useless, as data is incomplete (and encrypted). It’s why we call it quantum-safe: with incomplete data, even a quantumcomputer cannot reveal the original information.
+
+![](https://library.threefold.me/info/threefold/technology/qsss/threefold__qsss_intro_0_.jpg)
 
 * **Planetary Network** 
 
