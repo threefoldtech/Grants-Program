@@ -9,7 +9,8 @@
 
 ### Overview
 
-This project intends to provide in 'Thin Provisioning', meaning the creation of a new blockchain instance that does not need to be fully synchronised, but can start from an off-chain stored version of the blockchain. Syncing then only needs to be done since this last backup, and any data that the node needs to retrieve which is older, can be retrieved directly from this back-up. 
+This project intends to provide in 'Thin Provisioning', meaning the creation of a new blockchain instance that does not need to be fully synchronised, but can start from an off-chain stored version of the blockchain. Syncing then only needs to be done since this last backup, and any data that the node needs to retrieve which is older, can be retrieved directly from this back-up. This back-up is stored in Zero-DB's. Zero-DB is is a fast and efficient key-value store redis-protocol compatible, which makes data persistent inside an always append datafile, with namespaces support. 
+We will offer Thin Provisioning as a Service on the ThreeFold Grid, even though Zero-DB's can also run locally. 
 
 ### Background
 
