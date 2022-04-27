@@ -10,7 +10,7 @@
 ### Overview
 
 This project intends to provide in 'Thin Provisioning', meaning the creation of a new blockchain instance that does not need to be fully synchronised, but can start from an off-chain stored version of the blockchain. Syncing then only needs to be done since this last backup, and any data that the node needs to retrieve which is older, can be retrieved directly from this back-up. This back-up is stored in Zero-DB's. Zero-DB is is a fast and efficient key-value store redis-protocol compatible, which makes data persistent inside an always append datafile, with namespaces support. 
-We will offer Thin Provisioning as a Service on the ThreeFold Grid, even though Zero-DB's can also run locally. 
+We will offer Thin Provisioning as a Service on the ThreeFold Grid, even though Zero-DB's can also run locally. Reservation of capacity on the ThreeFold Grid, is orchestrated by the TF-Chain, a Parity Substrate blockchain. 
 
 ### Background
 
@@ -29,8 +29,6 @@ We consider the ThreeFold Technology as the missing foundational layer for a dec
 #### Integration
 
 TF-Chain is a customized chain running in the Parity Substrate Framework. It stores the agreements between node providers and consumers for any workload to be deployed on the ThreeFold Grid. 
-
-> TO DO : ... weblet (easy-to-deploy), terraform script, ... ***
 
 #### Team Interest
 
