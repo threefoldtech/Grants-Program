@@ -11,7 +11,9 @@ ThreeFold Tech has developed technology to empower a global scalable peer2peer I
 
 Our peer-to-peer internet technology is a blockchain-driven, self-healing cloud storage, compute and network platform. Addressing multiple target groups (e.g. blockchain organisations, developer community, banking, telco operators, government, enterprise etc) and enabling sustainable cloud infrastructure that is decentralised, quantum safe, scalable,  self-healing, regenerative and ultra cost-effective. 
 
-ThreeFold Grid now in 3e generation, our primary use case, is live today with 90+ PB of storage and 31k+ CPU cores available across 60 countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
+ThreeFold Grid has been released in its third generation. Our primary use case is live today with 80+ PB of storage and 31k+ CPU cores available across 60+ countries and growing day-to-day. ThreeFold Grid has attracted 20+ fantastic partners who are building added value on this universal network of decentralised capacity.
+
+See the [Grid Explorer](https://explorer.threefold.io/all) for an overview of the connected capacity. 
 
 We consider the ThreeFold Technology as the missing foundational layer for a decentralized internet. Basically any IT workload can run on top of the TFGrid. 
 
