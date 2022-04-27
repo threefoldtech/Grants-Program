@@ -50,7 +50,24 @@ While using this layer as base image, it will be possible to expose a remote fil
 
 #### Architecture
 
-With the state-of-art technology, ThreeFold Tech architecture allows to an easy way to provision in blockchain nodes or other IT workload needed in the Parity Substrate ecosystem. The components of Threefold needed to do so are Zero-OS, Quantum-Safe Storage, Planetary Network, TF-Chain and the Smart Contract for IT.
+With the state-of-art technology, ThreeFold Tech architecture allows to an easy way to thin provision blockchain nodes in the Parity Substrate ecosystem. The main component to have the Thin Provisioning Working is Zero-DB. 
+
+The components to provision them onto the ThreeFold Grid are Zero-OS, Quantum-Safe Storage, Planetary Network, TF-Chain and the Smart Contract for IT.
+
+* **Zero-DB**
+
+0-db is a fast and efficient key-value store redis-protocol compatible, which makes data persistent inside an always append datafile, with namespaces support.
+
+Characteristics : 
+- Backend engine for Storage
+- Can do +50000 transactions/sec
+- Can work on SSD and HDD
+- Is optimised for (soft/green) easy operation on HD
+- Works with reservations
+- Is an always-append store, which can have unlimited history
+- Master-slave replication built-in
+
+Zero-DB is being used as backend storage for Quantum Safe Filesystem.
 
 * **Zero-OS** 
 
@@ -71,7 +88,9 @@ Quantum-safe storage is persistent storage where data can be dispersed intellige
 
 * **Planetary Network** 
 
-The network component which runs by design end-to-end encrypted communications, with strong authentication features to connect, this network can securely interconnect any 2 hardware devices over IPv6 and with a secure protocol.
+The planetary network is an overlay network which lives on top of the existing internet or other Peer To Peer networks created. In this network, everyone is connected to everyone. End-to-end encryption between users of an app and the app running behind the network wall.
+
+Each user end network point is strongly authenticated and uniquely identified, independent of the network carrier used. There is no need for a centralized firewall or VPN solutions, as there is a circle based networking security in place.
 
 * **TF-Chain** 
 
@@ -110,8 +129,6 @@ There are initiatives focused on decentralisation of storage (Filecoin, SIA, Sto
 **ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
 We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
 
-Th
-
 ---- 
 
 ### Overview
@@ -146,8 +163,6 @@ Moreover, due to the fact that TF-Chain is running on Parity Substrate, the inte
 
 
 And it solves an anomaly in the decentralization movement: most of the current L1 blockchain frameworks run on centralized cloud infrastructure, like Amazon AWS, Microsoft Azure etc. Centralisation of hardware infrastructure for running decentralized workloads goes against the nature of the cryptospace, to have as much decentralization as possible. 
-
-
 
 **ThreeFold** is, to our knowledge, the only project that decentralizes the full spectrum of cloud infrastructure, while respecting privacy by design, full-fledged security, ability to run at the edge. 
 We achieve this by have all hardware resources (CPU, memory, HDD, SSD, network, IP addresses) be orchestrated by a federated, neutral and Linux-based operating system, called Zero-OS. 
