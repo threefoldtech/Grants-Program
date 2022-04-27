@@ -242,6 +242,7 @@ One project in the Substrate ecosystem is working on Network, [Phala Network](ht
 
 - https://github.com/threefoldtech (full ThreeFold Tech repo)
 - https://github.com/threefoldfoundation 
+- https://github.com/threefoldtech/0-db (Zero-DB repo)
 - https://github.com/threefoldtech/tfchain (TFChain repo)
 - https://github.com/threefoldtech/tfchain-pallets (repo holding pallets used for TFChain)
 
