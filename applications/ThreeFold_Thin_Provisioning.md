@@ -95,14 +95,10 @@ The 'Smart Contract for IT' is a process that allows on-chain reservation of clo
 
 ### Substrate / Polkadot Integration
 
-TF-Chain has been implemented in the Parity Substrate framework, and be expanded and improved, benefiting from the Polkadot ecosystem to achieve consensus and to implement the smart contract for IT. TF-Chain will be connected to the Polkadot ecosystem as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. 
+First implementation of this 'This Provisioning' mechanism will be implemented on TF-Chain, our own Parity Substrate based blockchain. However, the same mechanism can then be applied for any blockchain to be deployed in the Polkadot ecosystem, with a reference version with a known state hosted on the threeFold Grid decentralized cloud infrastructure.  
 
 > __TO DO__ : The technology allows to suybstantially extend the Off-chain storage capabilities in the polkadot ecosystem compared to the Off-chain worker. 
 > __TO CONFIRM__ : Parachain ? 
-
-#### The Pallet Implementation
-
-...
 
 
 ### Ecosystem Fits
