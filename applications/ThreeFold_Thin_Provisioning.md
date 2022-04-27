@@ -47,7 +47,7 @@ While using this layer as base image, it will be possible to expose a remote fil
 
 #### Architecture
 
-With the state-of-art technology, SubDAO Labs can achieve the goal based on Substrate 2.0 and the Polkadot. The SubDAO project contains SubDAO node, Template Library, SubDAO Guard, Asset Vault, SubDAO Airfone, and Front End.
+With the state-of-art technology, ThreeFold Tech architecture allows to an easy way to provision in blockchain nodes or other IT workload needed in the Parity Substrate ecosystem. The components of Threefold needed to do so are Zero-OS, Quantum-Safe Storage, Planetary Network, TF-Chain and the Smart Contract for IT.
 
 * **Zero-OS** 
 
@@ -92,7 +92,7 @@ The 'Smart Contract for IT' is a process that allows on-chain reservation of clo
 
 ### Substrate / Polkadot Integration
 
-TF-Chain has been implemented in the Parity Substrate framework, and be expanded and improved, benefiting from the Polkadot ecosystem to achieve consensus and to run the sis essential to what SubDAO Network is trying to achieve. The TF-Chain will be connected to the Polkadot ecosystem as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. 
+TF-Chain has been implemented in the Parity Substrate framework, and be expanded and improved, benefiting from the Polkadot ecosystem to achieve consensus and to implement the smart contract for IT. TF-Chain will be connected to the Polkadot ecosystem as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. 
 
 > __TO DO__ : The technology allows to suybstantially extend the Off-chain storage capabilities in the polkadot ecosystem compared to the Off-chain worker. 
 > __TO CONFIRM__ : Parachain ? 
