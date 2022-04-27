@@ -38,9 +38,9 @@ We consider the ThreeFold Technology as the missing foundational layer for a dec
 
 #### Thin Provisioning
 
-This **project** intends to benefit from the decentralised storage capabilities developed in the ThreeFold Grid to do Thin Provisioning. 
+This **project** intends to benefit from the decentralised storage and compute capabilities developed in the ThreeFold Grid to do Thin Provisioning of any blockchain node deployment in the Polkadot ecosystem. 
 
-In order to get a thin provisioning efficient, we need a way to start a filesystem in a well known existing state and modify this filesystem without modifying existing original layer.
+In order to get a thin provisioning efficiently done, we need a way to start a filesystem in a well known existing state and modify this filesystem without modifying existing original layer.
 
 Using 0-db database, we can give access to a database populated with a well known state of a filesystem. This database should be available only in read-only access in order to avoid any part to modify it. This database can be read by multiple reader in the same time.
 
@@ -60,13 +60,15 @@ The initial governors of a DAO can easily create a cross-chain DAO by only a few
 
 #### Integration
 
-SubDAO is a customized chain based on the Substrate 2.0 Framework and will run as a parachain on Polkadot. The OCW (Off-chain Worker) provides the ability to access the off-chain world, which would empower the DAOs to access external data rather than only On-chain data, such as the price of stable coins, the contributions on Github, and so on.
+TF-Chain is a customized chain running in the Parity Substrate Framework. It stores the agreements between node providers and consumers for any workload to be deployed on the ThreeFold Grid. 
+
+> TO DO : ... weblet (easy-to-deploy), terraform script, ... ***
 
 #### Team Interest
 
-The initial members of the SubDAO Labs team are big fans of Web3.0 technology. They come from different areas, ranging from full-stack developer, product manager, project management to cryptocurrency early adopters. DAO is the ideal governance model in the mind of the team. Creating and maintain a DAO is not so easy, especially to make a DAO working across different chains. But with the help of Substrate 2.0 and Polkadot, the team thinks it is the time now.
+The team is very experienced in cloud technology, ThreeFold Tech is the result of 20 years of open-source technology in the cloud sector, resulting in 6 exits for a total amount of about 500 million EUR. ThreeFold Tech is now combining this experience to create the world's first truly decentralized internet infrastructure. 
 
-Creating a DAO is not a new thing to the guys involved in the blockchain world, just like shooting a man to the Moon is not news to the fiction novel readers nor people. But the opportunity for everyone to easily travel forth and back between the Moon and the earth is making a big difference! All the team trying to do is to build a cheap, reliable, and fast enough vessel for people to travel between the Moon and the earth even further between Mars and the Earth. The team wants to provide a cheap, reliable, and fast enough way to let everyone being able to create DAOs and DApps across different chains.
+With this ambition, the team intends to rebuild the internet in a way it was intended at conception, which is truly decentralized. 
 
 ### Project Details
 
