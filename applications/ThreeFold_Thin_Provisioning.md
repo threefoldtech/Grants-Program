@@ -330,18 +330,13 @@ For each milestone,
 
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+This 'Thin Provisioning' project will be part of the features that will be offered on the ThreeFold Grid decentralized internet infrastructure. 
+The full infrastructure is now being migrated to v3, and this is the version that will be actively promoted in the months to come. 
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Personal recommendation by Substrate Builder Program team members. 
+**How did you hear about the Grants Program?** 
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+Both Web3 Foundation Website and Personal recommendation by Substrate Builder Program team members. 
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
