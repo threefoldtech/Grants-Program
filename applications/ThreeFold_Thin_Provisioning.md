@@ -16,21 +16,10 @@ ThreeFold Grid now in 3e generation, our primary use case, is live today with 90
 #### Integration
 
 Threefold provides decentralized internet infrastructure, which can be made available by anyone and for anyone. It combines the following major components : 
-- A federated operating system, called Zero-OS. It has a Linux kernel, so it’s compatible for running any Linux workload on it: containers, Kubernetes clusters, all types of storage, any application. All around the kernel has been rebuilt in order to make it federated/multi-user, secure and privacy enabling. 
-Features built around the kernel hold : 
-  - An authentication mechanism using a public/private key pair :  Access to this OS, both as a provider and as a user, happens through a public-private key pair, the same as is used to secure blockchain identities. So it’s really decentralised, no longer requiring user names and passwords, source of many hacks. 
-So every user (human, but it can also be an IoT device) has his own identity, represented by his own private keys, interacting directly on OS level. 
-  - Persistent storage where data can be dispersed intelligently over different hardware storage devices, which could be owned by different CSPs, in a way that hacking into a hard drive becomes useless, as data is incomplete (and encrypted). It’s why we call it quantum-safe: with incomplete data, even a quantumcomputer cannot reveal the original information.
-  - we got rid of hacking surface of this operating system, as it runs only in memory, there is no shell, and it completely separates the capacity providing side from the usage and data running on it. Meaning that a cloud provider has no insight whatsoever on the workload and the data running on his infrastructure. Which is essential to have privacy implemented by design. 
-  - the network component which runs by design end-to-end encrypted communications, with strong authentication features to connect, this network can securely interconnect any 2 hardware devices over IPv6 and with a secure protocol.
-
-![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/technology/zos/img/zos_overview_compute_storage.jpg)
+- A federated operating system, called Zero-OS. 
 
 - A blockchain component to bring trust. 
 This blockchain component uses the Parity substrate framework, and is the layer that stores all info required to run the ThreeFold Grid, holding all farms, hardware nodes, contracts between providers and consumers, billing reports, ... 
-- Extensive automation under form of a 'Smart Contract for IT'
-
-![](https://library.threefold.me/info/threefold/technology/threefold__smart_contract_it_.jpg)
 
 We consider the ThreeFold Technology as the missing foundational layer for a decentralized internet. Basically any IT workload can run on top of the TFGrid. 
 
@@ -80,13 +69,36 @@ With the state-of-art technology, SubDAO Labs can achieve the goal based on Subs
 
 * **Zero-OS** 
 
+Zero-OS is our own Linux-based operating system. It has a Linux kernel inside, so it’s compatible for running any Linux workload on it: containers, Kubernetes clusters, all types of storage, any application. All around the kernel has been rebuilt in order to make it federated/multi-user, secure and privacy enabling. 
+Features built around the kernel hold : 
+  - An authentication mechanism using a public/private key pair :  Access to this OS, both as a provider and as a user, happens through a public-private key pair, the same as is used to secure blockchain identities. So it’s really decentralised, no longer requiring user names and passwords, source of many hacks. 
+So every user (human, but it can also be an IoT device) has his own identity, represented by his own private keys, interacting directly on OS level. 
+
+We got rid of hacking surface of this operating system, as it runs only in memory, there is no shell, and it completely separates the capacity providing side from the usage and data running on it. Meaning that a cloud provider has no insight whatsoever on the workload and the data running on his infrastructure. Which is essential to have privacy implemented by design. 
+
+![](https://github.com/threefoldfoundation/info_threefold_pub/blob/development/wiki/technology/zos/img/zos_overview_compute_storage.jpg)
+
 * **Quantum-Safe Storage** 
+
+Quantum-safe storage is persistent storage where data can be dispersed intelligently over different hardware storage devices, which could be owned by different CSPs, in a way that hacking into a hard drive becomes useless, as data is incomplete (and encrypted). It’s why we call it quantum-safe: with incomplete data, even a quantumcomputer cannot reveal the original information.
 
 * **Planetary Network** 
 
+The network component which runs by design end-to-end encrypted communications, with strong authentication features to connect, this network can securely interconnect any 2 hardware devices over IPv6 and with a secure protocol.
+
 * **TF-Chain** 
 
+The trust component in our technology, storing all farming equipment (hardware) as well as agreements between farmers and capacity consumers. 
+
+Minting of TFT, as a reward for having hardware capacity connected to the ThreeFold Grid, is currently paid out on Stellar, but will be implemented on-chain on Parity Substrate soon. 
+Payment for hired capacity happens in hourly cycles in TFT on TF-Chain. 
+
 * **Smart Contract for IT** 
+
+The 'Smart Contract for IT' is a process that allows on-chain reservation of cloud capacity in a fully automated way, and manages the payment of this capacity through hourly cycles. 
+
+![](https://library.threefold.me/info/threefold/technology/threefold__smart_contract_it_.jpg)
+
 
 * **TFT** is the utility token and a representation of the internet capacity connected to the ThreeFold Grid. TFTs are 'farmed' by providers of dedicated hardware capacity, and are used as a medium of exchange for cloud capacity. 
 
