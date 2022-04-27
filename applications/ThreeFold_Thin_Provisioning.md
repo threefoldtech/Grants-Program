@@ -97,25 +97,10 @@ TF-Chain has been implemented in the Parity Substrate framework, and be expanded
 > __TO DO__ : The technology allows to suybstantially extend the Off-chain storage capabilities in the polkadot ecosystem compared to the Off-chain worker. 
 > __TO CONFIRM__ : Parachain ? 
 
-In the figure above, the SubDAO Node includes an OCW pallet that interacts with external HTTP service (Github Http Wrapper). Since the OCW pallet is a general component, most of the processing work of external data is moved out of OCW to decrease the complexity of implementation and give the ability to the DAO governors who wanna use specific data sources for their DAO. The external HTTP service (Github Http Wrapper) will fetch the data such as contributions for a user in a project or repository from Github.com and feed the OCW pallet in the SubDAO Node.
-
-All smart contracts mentioned above will be implemented with **Ink** or **EVM**. Since the SubDAO Node includes **OCW (Off-chain Worker)**, **Ink** is essential due to **Ink** is the only way to interact with pallets currently. Thanks to Ethereum, **Solidity** is widely used over several years, and most of the developers are already familiar with **EVM**.  So in the SubDAO Network, most of the smart contracts will be implemented using **EVM** to decrease the difficulties for new developers on the Polkadot ecosystem.  
-
-![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/Pallets.jpg)
-
-As shown above, those contracts interacting with pallets will be implemented with **Ink**, and others will be with **EVM**. Later in future versions, when developers get familiar with **Ink**, the whole project will upgrade to use **Ink** only. 
-
-For **EVM**, we will choose [Frontier](https://github.com/paritytech/frontier) as the evm pallet.
-
 #### The Pallet Implementation
 
-The function provided by the pallet to get off-chain data is `requestOffchainData`.
+...
 
-**1. requestOffchainData**
-
-- `desc:` smart contract requests the off-chain data, the SubDAO network nodes will send data to the SubDAO chain through OCW integrated later.
-- `params:` HTTP wrapper URL, JSON params
-- `return:` dataId
 
 ### Ecosystem Fits
 
