@@ -185,9 +185,9 @@ One project in the Substrate ecosystem is working on Network, [Phala Network](ht
 
 - Kristof De Spiegeleer : CEO
 - Geert Machtelinckx : Project Lead 
+- Maxime Daniel : Full-stack developer
 - Rob Van Mieghem : Lead Engineer 
 - Dylan Verstraete : Full-stack and blockchain developer
-- Maxime Verstraete : Full-stack developer
 - Lee Smet : System Architect 
 
 ### Project Websites
@@ -219,7 +219,11 @@ One project in the Substrate ecosystem is working on Network, [Phala Network](ht
 - 21 years of expertise in Development and Management
 - Mentioned in the release notes of Bitcoin version 0.11.0: https://github.com/bitcoin/bitcoin/blob/452bb90c718da18a79bfad50ff9b7d1c8f1b4aa3/doc/rele ase-notes/release-notes-0.11.0.md#credits
 
-**Geert**
+**Maxime**
+
+- 7 years of expertise in Operating Systems, Storage 
+
+- **Geert**
 
 - 23 years of experience in IT Project Management and Architecture
 - Currently busy on Project Management and Business Development with ThreeFold Tech
@@ -234,9 +238,6 @@ One project in the Substrate ecosystem is working on Network, [Phala Network](ht
 - Lead Architect of ThreeFold Tech
 - 6 years of expertise in IT Cloud Architectures and Operating Systems
 
-**Maxime**
-
-- 7 years of expertise in Operating Systems, Storage 
 
 ### Team Code Repos
 
